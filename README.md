@@ -20,8 +20,6 @@ interactive_patch_analyser &lt;Image Folder&gt; &lt;Channel To Analyse&gt;
 
 The program will expect a file format where each line has two decimal numbers. The first being the time that the data was observed, and the second being the value of the data.
 
-For the program to work the data MUST be centered around 1.
-
 ##### The Makefile
 
 The Makefile was designed to be used on windows systems and uses NMake to run it. Also the compiler uses cl.exe and link.exe to compile and link the objects respectively. These programs can be acquired by downloading installing Microsoft Visual Studio or the free version, Microsoft Visual Studio Express.
